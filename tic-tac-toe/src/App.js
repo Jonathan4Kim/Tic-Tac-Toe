@@ -18,7 +18,6 @@ export default function Board() {
     winner = "Next Player: " + (xIsNext ? "X" : "O");
   }
 
-
   let status;
   if (winner) {
     status = "winner: " + winner;
